@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="canonical" href="https://kristianategnany.github.io/first-pwa/" />
     <link rel="manifest" href="/first-pwa/manifest.webmanifest" />
     <title>My First PWA 1</title>
 </head>
 <body>
     <p>Hello, this is my first PWA</p>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/first-pwa/worker.js',
+          {scope: '/first-pwa/'}
+        )
+      }
+  </script>
 </body>
 </html>
