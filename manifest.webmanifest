@@ -1,0 +1,15 @@
+{
+    "name": "My first PWA",
+    "icons": [
+      {
+        "src": "/first-pwa/assets/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "display": "standalone",
+    "theme_color": "#B12A34",
+    "background_color": "white",
+    "start_url": "/first-pwa/index.html"
+  }
+  
