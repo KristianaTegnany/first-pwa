@@ -2,11 +2,12 @@
     "name": "My first PWA",
     "icons": [
       {
-        "src": "/first-pwa/assets/logo.png",
+        "src": "assets/logo.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
+    "display": "fullscreen",
     "background_color": "white",
     "start_url": "/first-pwa/index.html",
     "related_applications": [
