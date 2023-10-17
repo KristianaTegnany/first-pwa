@@ -1,5 +1,7 @@
 {
     "name": "My first PWA",
+    "scope": "/first-pwa/",
+    "start_url": "/first-pwa/"
     "icons": [
       {
         "src": "/first-pwa/assets/logo.png",
@@ -9,7 +11,6 @@
     ],
     "display": "standalone",
     "theme_color": "#B12A34",
-    "background_color": "white",
-    "start_url": "/first-pwa/index.html"
+    "background_color": "white"
   }
   
