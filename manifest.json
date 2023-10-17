@@ -1,0 +1,19 @@
+{
+    "name": "My first PWA",
+    "icons": [
+      {
+        "src": "assents/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "white",
+    "start_url": "./",
+    "related_applications": [
+        {
+          "platform": "play",
+          "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+        }
+      ]
+  }
+  
